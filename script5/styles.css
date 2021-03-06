@@ -1,0 +1,32 @@
+.table {
+	border-collapse: collapse;
+}
+
+.black,
+.white {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+}
+
+.black {
+	background-color: #034dfd;
+}
+
+.topLetters,
+.rightNumbers {
+	transform: rotate(180deg);
+}
+
+.figures {
+	font-size: 50px;
+	text-align: center;
+}
+
+.letters,
+.numbers {
+	text-align: center;
+	font-size: 24px;
+	padding: 20px;
+	font-weight: 500;
+}
